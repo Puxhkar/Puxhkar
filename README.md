@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./pushkar3.gif" alt="Banner" width="100%"/>
+  <img src="./pushkar3.gif" alt="Banner" width="100%" height="400px"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm Pushkar Gupta</h1>
