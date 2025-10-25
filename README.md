@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="./pushkar3.gif" alt="Banner" width="100%"/>
 </p>
