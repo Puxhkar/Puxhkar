@@ -1,6 +1,12 @@
 <p align="center">
   <img src="./pushkar.gif" alt="Banner" width="100%"/>
 </p>
+<p align="center">
+  <img src="./pushkar2.gif" alt="Banner" width="100%"/>
+</p>
+<p align="center">
+  <img src="./pushkar3.gif" alt="Banner" width="100%"/>
+</p>
 
 <h1 align="center">Hi 👋, I'm Pushkar Gupta</h1>
 
