@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./gif/mario.gif" alt="Banner" width="100%"/>
+</p>
 [![MasterHead](https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png?resize=1800%2C630)](https://AVI-SHUKLA1110.io)
 
 <h1 align="center">Hi 👋, I'm Abhishek Shukla</h1>
