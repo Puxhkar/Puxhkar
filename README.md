@@ -132,3 +132,9 @@ Developed and maintained by Mauro de Souza
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Puxhkar/Puxhkar/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Puxhkar/Puxhkar/output/pacman-contribution-graph.svg">
 </picture>
+
+## 🕹️ Pac-Man Dashboard
+<p align="center">
+  <img src="./pacman-dashboard.gif" width="700" alt="Pac-Man Dashboard Animation"/>
+</p>
+
