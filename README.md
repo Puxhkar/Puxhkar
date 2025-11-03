@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./pushkar3.gif" alt="Banner" width="100%" height="400px"/>
+  <img src="./pushkar3.gif" alt="Banner" width="100%" height="350px"/>
 </p>
 <div>
 <img 
@@ -7,11 +7,8 @@
   style="width: 100%; max-width: 1200px; height: auto; max-height: 150px;"
   alt="Header Capsule"
 />
-
 <h1 align="center">Hi 👋, I'm Pushkar Gupta</h1>
-
 <h3 align="center"><u>🚀 Pythonic Mindset | Algorithmic Precision | Real-world Impact</u></h3>
-
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif](https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Puxhkar&label=Profile%20views&color=0e75b6&style=flat" alt="avi-shukla1110" /> </p>
