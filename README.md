@@ -1,3 +1,5 @@
+![Hello](docs/hello.svg)
+
 <p align="center">
   <img src="./pushkar3.gif" alt="Banner" width="100%" height="350px"/>
 </p>
