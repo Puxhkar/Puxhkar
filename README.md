@@ -6,7 +6,7 @@
 <div>
 <img 
   src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  
-  style="width: 100%; max-width: 1200px; height: auto; max-height: 150px;"
+  style="width: 100%; max-width: 1200px; height: auto; max-height: 100px;"
   alt="Header Capsule"
 />
 <h1 align="center">Hi 👋, I'm Pushkar Gupta</h1>
@@ -118,7 +118,7 @@ Developed and maintained by Mauro de Souza
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/slack/default.svg" width="52" height="40" alt="slack logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitch/default.svg" width="52" height="40" alt="twitch logo"  />
 </div>
-## 🕹️ Pac-Man Dashboard
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Puxhkar/Puxhkar/output/pacman-contribution-graph.svg">
