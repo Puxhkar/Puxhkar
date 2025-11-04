@@ -13,7 +13,54 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 5name: 👾 Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"  # 🕒 Auto-run every 24 hours
+  workflow_dispatch:         # ⚡ Allow manual trigger anytime
+  push:
+    branches:
+      - main                 # 🔁 Run when pushing to main branch
+
+jobs:
+  generate:
+    name: 🟡 Build & Deploy Pac-Man Graph
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 10
+
+    steps:
+      # 🎬 Step 1: Checkout Repo
+      - name: 📦 Checkout Repository
+        uses: actions/checkout@v4
+
+      # 🎨 Step 2: Generate Pac-Man Contribution Graph
+      - name: 🧩 Generate Animated Pac-Man Graph
+        uses: Puxhkar/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          theme: "neon"               # 💡 (optional) choose: classic | neon | pixel | ghost
+          speed: "medium"             # 🏃‍♂️ choose: slow | medium | fast
+          show_ghosts: true           # 👻 add cute ghosts
+          show_username: true         # ✨ display “Puxhkar” on the graph
+
+      # 💾 Step 3: Commit and Push the Output
+      - name: 🚀 Deploy Pac-Man Graph to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          commit_message: "🟡 Pac-Man updated! Chomp chomp 🍒"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 🎉 Step 4: Confirm Success in Logs
+      - name: ✅ Done!
+        run: echo "Pac-Man contribution graph successfully generated for ${{ github.repository_owner }}! 🍒👾"
+
 
     steps:
       - name: generate pacman-contribution-graph.svg
